@@ -1,15 +1,21 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/pages/music/index'
+import recommend from '../pages/recommend'
+
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name:Index,
-      component: Index
-    }
+        path: '/',
+        name: 'home',
+        component: recommend
+    },
+    {
+        path: '/recommend',
+        name: 'recommend',
+        component: recommend
+    },
   ]
 })

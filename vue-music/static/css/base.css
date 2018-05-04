@@ -1,6 +1,6 @@
 @charset "utf-8";
 *{ margin:0; padding:0; box-sizing: border-box;}
-body, input, button, textarea { color:#000; font:.26rem/1 "Microsoft YaHei", Arial, simsun, Tahoma, Verdana, Helvetica, sans-serif; }
+body, input, button, textarea { color:#000; font:.26rem/1 "Microsoft YaHei", Arial, simsun, Tahoma, Verdana, Helvetica, sans-serif;background: #222222;}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display:block; }
 body {position: relative; _background-image:url(about:blank); _background-attachment:fixed; }
 img { border:none; max-width: 100%;}
